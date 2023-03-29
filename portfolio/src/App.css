@@ -1,0 +1,25 @@
+nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.routes{
+  justify-content: space-between;
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  padding-left: 10px;
+ 
+}
+HashLink{
+  text-decoration: none;
+  color: black;
+}

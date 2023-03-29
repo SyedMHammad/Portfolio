@@ -1,0 +1,12 @@
+@import "Colors";
+.institute{
+    color:$primary;
+    line-height: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    > h3{
+        text-decoration: underline;
+    }
+}
