@@ -16,7 +16,7 @@ nav{
   display: flex;
   margin-left: 5px;
   align-items: center;
-  padding-left: 10px;
+  /* padding-left: 10px; */
  
 }
 HashLink{

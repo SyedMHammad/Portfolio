@@ -4,6 +4,8 @@ import MainPage from './components/MainPage';
 import Experience from './components/Experience';
 import './styles/MediaQuery.scss'
 import { Route,Routes,Link} from 'react-router-dom';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 function App() {
   return (
     <>
@@ -14,14 +16,15 @@ function App() {
             <HashLink to="/#detail">Home</HashLink>
             <HashLink to="/#education">Education</HashLink>
             <HashLink to="/#experience">Experience</HashLink>
-            <HashLink to="/#projects">Projects</HashLink>
+            <HashLink to="/projects">Projects</HashLink>
             <HashLink to="/contact">Contact</HashLink>
           </div>
         </div>
       </nav>
       <Routes>
         <Route exact path="/" element={<MainPage />}/>
-        {/* <Route exact path="/experience" element={<Experience />} /> */}
+        <Route exact path="/projects" element={<Projects/>}/>
+        <Route exact path="/contact" element={<Contact />}/>
       </Routes>
       <footer>
         <p>All Rights Reserved ©</p>
