@@ -19,16 +19,16 @@ function Projects(props){
                 showThumbs={false}
                 interval={1000}>
                     <div>
-                        <img src={auto1} alt="Image loading failed" />
+                        <img src={auto1} alt="loading failed" />
                     </div>
                     <div>
-                        <img src={auto2} alt="Image loading failed" />
+                        <img src={auto2} alt="loading failed" />
                     </div>
                     <div>
-                        <img src={auto3} alt="Image loading failed" />
+                        <img src={auto3} alt="loading failed" />
                     </div>
                     <div>
-                        <img src={auto4} alt="Image loading failed" />
+                        <img src={auto4} alt="loading failed" />
                     </div>
                 </Carousel>
             </div>

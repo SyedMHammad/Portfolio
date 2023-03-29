@@ -1,6 +1,5 @@
 import '../styles/Contact.scss';
-import {useState,useEffect} from 'react';
-import axios from 'axios';
+import {useState} from 'react';
 import ConfirmationModal from './ConfirmationModal';
 import emailjs from '@emailjs/browser'
 function Contact(){

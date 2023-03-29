@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import qavilogo from '../assets/qavilogo.svg';
 import Companies from './Companies';
 import '../styles/Experience.scss'

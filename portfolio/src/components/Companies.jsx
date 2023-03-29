@@ -5,7 +5,7 @@ function Companies(props){
         
         <div className="company">
             <div className="comp-logo">
-            <img src={props.img} alt="Image Loading Failed"/>
+            <img src={props.img} alt="Loading Failed"/>
             </div>
             <div className="comp-details">
                 <strong>{props.name}</strong>
