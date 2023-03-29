@@ -4,7 +4,7 @@ function ConfirmationModal(props){
     const [show, setShow] = useState(false);
 
     useEffect(() => {
-        console.log("Called")
+        
       if (props.message) {
         setShow(true);
         setTimeout(() => {

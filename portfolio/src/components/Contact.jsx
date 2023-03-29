@@ -10,9 +10,8 @@ function Contact(){
 
     async function Submit(event) {
         event.preventDefault()
-        console.log(process.env.REACT_APP_KEY)
         const postResponse = await emailjs.send(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID,inputs,process.env.REACT_APP_KEY)
-        console.log(postResponse)
+       
         if(postResponse.status === 200) {
             setModalMessage('Query submitted successfully');
             setModalStatus(postResponse.status);
@@ -25,7 +24,7 @@ function Contact(){
     function handleInput(event) {
         const name = event.target.name;
         const value = event.target.value;
-        console.log("Name:",name,"Value",value)
+        
         setInputs(values => ({ ...values, [name]: value }))
     }
     return (
